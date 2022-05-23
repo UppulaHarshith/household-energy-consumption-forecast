@@ -1,9 +1,10 @@
-Household Electric Power Consumption Forecast Application
-1. Introduction:
-The real energy demand made on the present electrical supply is referred to as electric energy consumption. However, poor management of its use can result in a reduction in electrical supply. As a result, it is critical that everyone be concerned about energy efficiency in order to reduce consumption. The goals of this study are to develop a model for forecasting household electricity usage and to determine the best forecasting period, which could be daily, weekly, monthly, or quarterly. Individual household electric power usage is the time-series data in our investigation.
-Any household requires electricity to function. In this period of global instability, the globe requires rising amounts of energy to maintain economic and social progress and improve living standards. Mishandling of electric energy could result in future excessive costs. Over 60% of residential energy in the United States is wasted.  Many people who use power on a regular basis are unaware of how much energy is wasted. The monthly electricity usage is predicted using a forecasting tool. We employ a Neural network model based on LSTM (Long short-term memory), which is quite efficient for time series samples like ours.
+# Household Electric Power Consumption Forecast Application
 
-2. Data Collection:
+## 1. Introduction:
+- The real energy demand made on the present electrical supply is referred to as electric energy consumption. However, poor management of its use can result in a reduction in electrical supply. As a result, it is critical that everyone be concerned about energy efficiency in order to reduce consumption. The goals of this study are to develop a model for forecasting household electricity usage and to determine the best forecasting period, which could be daily, weekly, monthly, or quarterly. Individual household electric power usage is the time-series data in our investigation.
+- Any household requires electricity to function. In this period of global instability, the globe requires rising amounts of energy to maintain economic and social progress and improve living standards. Mishandling of electric energy could result in future excessive costs. Over 60% of residential energy in the United States is wasted.  Many people who use power on a regular basis are unaware of how much energy is wasted. The monthly electricity usage is predicted using a forecasting tool. We employ a Neural network model based on LSTM (Long short-term memory), which is quite efficient for time series samples like ours.
+
+## 2. Data Collection:
 https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set
 Dataset is taken from an open-source Kaggle, which consists of 20,75,259 rows and 9 columns. The data is collected between 2006 to 2008.
 4.1 Dataset Description:
